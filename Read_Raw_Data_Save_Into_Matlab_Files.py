@@ -7,8 +7,8 @@ import pyedflib
 import scipy.io as sio
 import os
 
-os.chdir('/content/EEG_Features_For_Multi_class_Motor_Imagery/EEG_Test_Raw_Data/PhysioNet_MI_Dataset/')
-SAVE = '/content//EEG_Features_For_Multi_class_Motor_Imagery/EEG_Test_Raw_Data/Saved_Matlab_Data/'
+os.chdir('/content/EEG-Motor-Imagery-Classification-CNNs-TensorFlow/PhysioNet_MI_Dataset')
+SAVE = '/content/EEG_Features_For_Multi_class_Motor_Imagery/Saved_Matlab_Data/'
 
 MOVEMENT_START = 1 * 160  # MI starts 1s after trial begin
 MOVEMENT_END   = 5 * 160  # MI lasts 4 seconds
